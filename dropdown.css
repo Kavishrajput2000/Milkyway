@@ -1,0 +1,48 @@
+	body{
+	font-family: arial;	
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-left: 100px;
+}
+ul li{
+	float: left;
+	height: 60px;
+	width: 300px;
+	background: green;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: px;
+	color: white;
+	font-size: 15px;
+	border-radius: 15px 50px;
+	margin: 2px;
+	line-height: 60px;
+}
+ul li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	transition: .5s;
+	transform: translate(0px -600px);
+	font-size: 20px;
+}
+ul li a:hover{
+	background: red;
+	border-radius: 15px 50px;
+}
+ul li ul li{
+	margin: 1px;
+	margin-left: -100px;
+	display: none;
+	margin-bottom: 0px;
+	transition: .5s;
+}
+ul li:hover ul li {
+ display: block;
+ border-radius: 15px 50px;
+ transition: .5s;
+}
