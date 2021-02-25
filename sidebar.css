@@ -183,6 +183,7 @@ transform: rotate(360deg);
 	height: 100%;
 	background: transparent;
 	transform: translateX(-180px);
+	padding-bottom: auto;
 }
 #sidebar ol li{
 	color: white;
